@@ -1,4 +1,4 @@
 name: TwitchMinecraftPlugin
 version: @version@
-main: com.github.twitch4j.minecraft.TwitchMinecraftPlugin
+main: com.github.burzakrual.minecraft.TwitchMinecraftPlugin
 api-version: 1.15
