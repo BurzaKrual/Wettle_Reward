@@ -1,4 +1,5 @@
-name: TwitchMinecraftPlugin
-version: @version@
+name: Wettle-Rewards
+version: 1.0.0
 main: com.github.burzakrual.minecraft.TwitchMinecraftPlugin
 api-version: 1.15
+#MADE BY BURZAKRUAL
