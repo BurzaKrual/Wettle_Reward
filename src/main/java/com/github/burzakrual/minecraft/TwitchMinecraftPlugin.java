@@ -28,7 +28,7 @@ public final class TwitchMinecraftPlugin extends JavaPlugin {
         // Build credential when possible
         String token = config.getString("oauth_token");
         OAuth2Credential credential = StringUtils.isNotBlank(token) ? new OAuth2Credential("twitch", token) : null;
-
+        getCommand("link").setExecutor(new LinkCommandExecutor());
         getCommand("reward").setExecutor(new RewardCommandExecutor(twitchClient));
 
         getLogger().info("YourPlugin has been enabled!");
